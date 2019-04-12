@@ -1,0 +1,14 @@
+C:\xampp\htdocs\webApi\obj\Debug\netcoreapp2.2\htdocs.csprojAssemblyReference.cache
+C:\xampp\htdocs\webApi\obj\Debug\netcoreapp2.2\htdocs.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\webApi\obj\Debug\netcoreapp2.2\htdocs.RazorAssemblyInfo.cache
+C:\xampp\htdocs\webApi\obj\Debug\netcoreapp2.2\htdocs.RazorAssemblyInfo.cs
+C:\xampp\htdocs\webApi\obj\Debug\netcoreapp2.2\htdocs.AssemblyInfoInputs.cache
+C:\xampp\htdocs\webApi\obj\Debug\netcoreapp2.2\htdocs.AssemblyInfo.cs
+C:\xampp\htdocs\webApi\bin\Debug\netcoreapp2.2\htdocs.deps.json
+C:\xampp\htdocs\webApi\bin\Debug\netcoreapp2.2\htdocs.runtimeconfig.json
+C:\xampp\htdocs\webApi\bin\Debug\netcoreapp2.2\htdocs.runtimeconfig.dev.json
+C:\xampp\htdocs\webApi\bin\Debug\netcoreapp2.2\htdocs.dll
+C:\xampp\htdocs\webApi\bin\Debug\netcoreapp2.2\htdocs.pdb
+C:\xampp\htdocs\webApi\obj\Debug\netcoreapp2.2\htdocs.RazorTargetAssemblyInfo.cache
+C:\xampp\htdocs\webApi\obj\Debug\netcoreapp2.2\htdocs.dll
+C:\xampp\htdocs\webApi\obj\Debug\netcoreapp2.2\htdocs.pdb

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container col-lg-10">
+        <h2>Create guitar</h2>
+        <div class="form-group row">
+            <label for="name-input" class="col-2 col-form-label">Name</label>
+            <div class="col-10">
+                <input name="name" class="form-control" type="text" placeholder="Star wars" id="name-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="year-input" class="col-2 col-form-label">Year</label>
+            <div class="col-10">
+                <input name="year" class="form-control" type="text" placeholder="1987" id="year-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="country-input" class="col-2 col-form-label">Country</label>
+            <div class="col-10">
+                <input name="country" class="form-control" type="text" placeholder="USA" id="country-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="produce-input" class="col-2 col-form-label">Produce</label>
+            <div class="col-10">
+                <input name="produce" class="form-control" type="text" placeholder="xz" id="produce-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="genre-input" class="col-2 col-form-label">Genre</label>
+            <div class="col-10">
+                <input name="genre" class="form-control" type="text" placeholder="fantastic" id="genre-input">
+            </div>
+        </div>
+        <div class="col-10">
+            <input name="id-input" class="form-control" type="hidden" id="id-input">
+        </div>
+        <div class="form-group row">
+            <button onclick="add();" class="btn btn-primary col-2">Save</button>
+            <button onclick="location.assign('index.html');" class="btn btn-secondary col-2">Cancel</button>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        function fillFilm() {
+            var nameInput = document.getElementById('name-input');
+            var yearInput = document.getElementById('year-input');
+            var countryInput = document.getElementById('country-input');
+            var produceInput = document.getElementById('produce-input');
+            var genreInput = document.getElementById('genre-input');
+            var film = {
+                id: id,
+                name: nameInput.value,
+                year: yearInput.value,
+                country: countryInput.value,
+                prod: produceInput.value,
+                genre: genreInput.value
+            };
+            return film;
+        }
+        function add() {
+            var film = fillFilm();
+            createFilm(film);
+            location.assign('index.html');
+        }
+    </script>
+</body>
+
+</html>
